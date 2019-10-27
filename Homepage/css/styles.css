@@ -60,6 +60,11 @@ p {
 }
 
 
+.data-block{
+
+	margin-bottom: 3rem;
+}
+
 /* Header */
 
 .page-width{
@@ -144,6 +149,33 @@ p {
 }
 	.claim:last-child{
 		margin-right: 0;
+	}
+
+
+	.claim header > i{
+		font-size: 2.5rem;
+		font-weight: bold;
+		color: #9a9a9a;
+		float: left;
+		width: 25%;
+	}
+
+	.claim header > h2{
+		float: right;
+		width: 75%;
+	}
+
+	.claim p + i{
+		font-size: 1rem;
+		font-weight: bold;
+		float: left;
+		margin-right: .5rem;
+	}
+
+
+	.claim p + a{
+		font-size: 1.5rem;
+
 	}
 
 
